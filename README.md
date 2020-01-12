@@ -2,6 +2,10 @@
 
 This repo is to detect car parts using the state-of-the-art [YOLOv3](https://pjreddie.com/darknet/yolo/) computer vision algorithm. For a short write up check out this [medium post](https://medium.com/@muehle/how-to-train-your-own-yolov3-detector-from-scratch-224d10e55de2). 
 
+<img src="/Utils/Images/00234.jpg" width="425"/> <img src="/Utils/Images/00234_car_.jpg" width="425"/> 
+<img src="/Utils/Images/00233.jpg" width="425"/> <img src="/Utils/Images/00233_car_.jpg" width="425"/> 
+<img src="/Utils/Images/00232.jpg" width="425"/> <img src="/Utils/Images/00232_car_.jpg" width="425"/> 
+
 ### Pipeline Overview
 
 To build and test your object detection algorithm follow the below steps:
@@ -134,7 +138,3 @@ I would like to thank [Anton Muelemann](https://github.com/AntonMu) for creating
 
 - ⭐ **star** this repo to get notifications on future improvements and
 - 🍴 **fork** this repo if you like to use it as part of your own project.
-
-<img src="/Utils/Images/00234.jpg" width="425"/> <img src="/Utils/Images/00234_car_.jpg" width="425"/> 
-<img src="/Utils/Images/00233.jpg" width="425"/> <img src="/Utils/Images/00233_car_.jpg" width="425"/> 
-<img src="/Utils/Images/00232.jpg" width="425"/> <img src="/Utils/Images/00232_car_.jpg" width="425"/> 
