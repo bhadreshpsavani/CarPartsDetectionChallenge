@@ -10,11 +10,11 @@ The outputs are saved to [`CarPartsDetectionChallenge/Data/Source_Images/Test_Im
 
 ### Input: ###
 
-[input](/Utils/Images/00227.jpg)
+![input](/Utils/Images/00227.jpg)
 
 ### Output: ###
 
-[Output](Utils/Images/00227_car_.jpg)
+![Output](Utils/Images/00227_car_.jpg)
 
 ### That's all!
 Congratulations on building Car Part Detector using YOLOv3.
