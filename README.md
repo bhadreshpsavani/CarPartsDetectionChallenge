@@ -1,6 +1,6 @@
-# TrainYourOwnYOLO: Building a Custom Object Detector from Scratch [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+# CarPartDetection: Detect Five Car Parts using YOLOv3 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
-This repo let's you train a custom image detector using the state-of-the-art [YOLOv3](https://pjreddie.com/darknet/yolo/) computer vision algorithm. For a short write up check out this [medium post](https://medium.com/@muehle/how-to-train-your-own-yolov3-detector-from-scratch-224d10e55de2). 
+This repo is to detect car parts using the state-of-the-art [YOLOv3](https://pjreddie.com/darknet/yolo/) computer vision algorithm. For a short write up check out this [medium post](https://medium.com/@muehle/how-to-train-your-own-yolov3-detector-from-scratch-224d10e55de2). 
 
 ### Pipeline Overview
 
@@ -39,8 +39,8 @@ To speed up training, it is recommended to use a **GPU with CUDA** support. For 
 
 Clone this repo with:
 ```
-git clone https://github.com/AntonMu/TrainYourOwnYOLO
-cd TrainYourOwnYOLO/
+git clone https://github.com/bhadreshpsavani/CarPartsDetectionChallenge
+cd CarPartsDetectionChallenge/
 ```
 Create Virtual **(Linux/Mac)** Environment (requires [venv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) which is included in the standard library of Python 3.3 or newer):
 ```
@@ -50,7 +50,7 @@ source env/bin/activate
 Make sure that, from now on, you **run all commands from within your virtual environment**.
 
 #### 1b Setting up Virtual Environment [Windows]
-Use the [Github Desktop GUI](https://desktop.github.com/) to clone this repo to your local machine. Navigate to the `TrainYourOwnYOLO` project folder and open a power shell window by pressing **Shift + Right Click** and selecting `Open PowerShell window here` in the drop-down menu.
+Use the [Github Desktop GUI](https://desktop.github.com/) to clone this repo to your local machine. Navigate to the `CarPartsDetectionChallenge` project folder and open a power shell window by pressing **Shift + Right Click** and selecting `Open PowerShell window here` in the drop-down menu.
 
 Create Virtual **(Windows)** Environment (requires [venv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) which is included in the standard library of Python 3.3 or newer):
 
@@ -70,17 +70,17 @@ pip install -r requirements.txt
 If this fails, you may have to upgrade your pip version first with `pip install pip --upgrade`. If your system has working CUDA drivers, it will use your GPU automatically for training and inference.
 
 ## Quick Start (Inference only)
-To test the cat face detector on test images located in [`TrainYourOwnYOLO/Data/Source_Images/Test_Images`](/Data/Source_Images/Test_Images) run the `Minimal_Example.py` script in the root folder with:
+To test the cat face detector on test images located in [`CarPartsDetectionChallenge/Data/Source_Images/Test_Images`](/Data/Source_Images/Test_Images) run the `Minimal_Example.py` script in the root folder with:
 
 ```
 python Minimal_Example.py
 ```
 
-The outputs are saved in [`TrainYourOwnYOLO/Data/Source_Images/Test_Image_Detection_Results`](/Data/Source_Images/Test_Image_Detection_Results). This includes:
+The outputs are saved in [`CarPartsDetectionChallenge/Data/Source_Images/Test_Image_Detection_Results`](/Data/Source_Images/Test_Image_Detection_Results). This includes:
  - Cat pictures with bounding boxes around faces with confidence scores and
  - [`Detection_Results.csv`](/Data/Source_Images/Test_Image_Detection_Results/Detection_Results.csv) file with file names and locations of bounding boxes.
 
- If you want to detect cat faces in your own pictures, replace the cat images in [`Data/Source_Images/Test_Images`](/Data/Source_Images/Test_Images) with your own images.
+ If you want to detect car parts in your own pictures, replace the cat images in [`Data/Source_Images/Test_Images`](/Data/Source_Images/Test_Images) with your own images.
 
 ## Full Start (Training and Inference)
 
@@ -99,10 +99,11 @@ python <script_name.py> -h
 
 ## License
 
-Unless explicitly stated otherwise at the top of a file, all code is licensed under the MIT license. This repo makes use of [**ilmonteux/logohunter**](https://github.com/ilmonteux/logohunter) which itself is inspired by [**qqwweee/keras-yolo3**](https://github.com/qqwweee/keras-yolo3).
+Unless explicitly stated otherwise at the top of a file, all code is licensed under the MIT license. 
+This repo is the fork of [**TrainYourOwnYOLO**](https://github.com/AntonMu/TrainYourOwnYOLO) which is to train YOLOv3 algorithm cat detection. This repo makes use of [**ilmonteux/logohunter**](https://github.com/ilmonteux/logohunter) which itself is inspired by [**qqwweee/keras-yolo3**](https://github.com/qqwweee/keras-yolo3).
 
 ## Acknowledgements
-Many thanks to [Niklas Wilson](https://github.com/NiklasWilson) for contributing towards making this repo compatible with Tensorflow 2.0. 
+I would like to thank [Anton Muelemann](https://github.com/AntonMu) for creating [**TrainYourOwnYOLO**]((https://github.com/AntonMu/TrainYourOwnYOLO) repository which really helped me to create this custom object detector.
 
 ## Troubleshooting
 
