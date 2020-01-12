@@ -103,7 +103,7 @@ Unless explicitly stated otherwise at the top of a file, all code is licensed un
 This repo is the fork of [**TrainYourOwnYOLO**](https://github.com/AntonMu/TrainYourOwnYOLO) which is to train YOLOv3 algorithm cat detection. This repo makes use of [**ilmonteux/logohunter**](https://github.com/ilmonteux/logohunter) which itself is inspired by [**qqwweee/keras-yolo3**](https://github.com/qqwweee/keras-yolo3).
 
 ## Acknowledgements
-I would like to thank [Anton Muelemann](https://github.com/AntonMu) for creating [**TrainYourOwnYOLO**]((https://github.com/AntonMu/TrainYourOwnYOLO) repository which really helped me to create this custom object detector.
+I would like to thank [Anton Muelemann](https://github.com/AntonMu) for creating [**TrainYourOwnYOLO**](https://github.com/AntonMu/TrainYourOwnYOLO) repository which really helped me to create this custom object detector.
 
 ## Troubleshooting
 
