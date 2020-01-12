@@ -11,11 +11,8 @@ The outputs are saved to [`CarPartsDetectionChallenge/Data/Source_Images/Test_Im
 ### Input and Output: ###
 
 <img src="/Utils/Images/00229.jpg" width="425"/> <img src="/Utils/Images/00229_car_.jpg" width="425"/> 
-
-![input2](/Utils/Images/00227.jpg = 250x350) ![Output2](/Utils/Images/00227_car_.jpg = 250x350)
-
-![input3](/Utils/Images/00230.jpg = 250x350) ![Output3](/Utils/Images/00230_car_.jpg = 250x350)
-
+<img src="/Utils/Images/00227.jpg" width="425"/> <img src="/Utils/Images/00227_car_.jpg" width="425"/> 
+<img src="/Utils/Images/00230.jpg" width="425"/> <img src="/Utils/Images/00230_car_.jpg" width="425"/> 
 
 ### That's all!
 Congratulations on building Car Part Detector using YOLOv3.
