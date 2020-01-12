@@ -2,6 +2,14 @@
 
 This repo is to detect car parts using the state-of-the-art [YOLOv3](https://pjreddie.com/darknet/yolo/) computer vision algorithm. For a short write up check out this [medium post](https://medium.com/@muehle/how-to-train-your-own-yolov3-detector-from-scratch-224d10e55de2). 
 
+This Project is to detect Five Parts of the car:
+1. Light(Front and Back Light)
+2. Glass(Front and Back Glass)
+3. SideGlass
+4. Door
+5. Wheel
+
+Checkout this inputs and outputs,
 <img src="/Utils/Images/00234.jpg" width="425"/> <img src="/Utils/Images/00234_car_.jpg" width="425"/> 
 <img src="/Utils/Images/00233.jpg" width="425"/> <img src="/Utils/Images/00233_car_.jpg" width="425"/> 
 <img src="/Utils/Images/00232.jpg" width="425"/> <img src="/Utils/Images/00232_car_.jpg" width="425"/> 
