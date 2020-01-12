@@ -35,7 +35,7 @@ To speed up training, it is recommended to use a **GPU with CUDA** support. For 
 
 ### Installation
 
-#### 1a Setting up Virtual Environment [Linux or Mac]
+#### 1a. Setting up Virtual Environment [Linux or Mac]
 
 Clone this repo with:
 ```
@@ -49,7 +49,7 @@ source env/bin/activate
 ```
 Make sure that, from now on, you **run all commands from within your virtual environment**.
 
-#### 1b Setting up Virtual Environment [Windows]
+#### 1b. Setting up Virtual Environment [Windows]
 Use the [Github Desktop GUI](https://desktop.github.com/) to clone this repo to your local machine. Navigate to the `CarPartsDetectionChallenge` project folder and open a power shell window by pressing **Shift + Right Click** and selecting `Open PowerShell window here` in the drop-down menu.
 
 Create Virtual **(Windows)** Environment (requires [venv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) which is included in the standard library of Python 3.3 or newer):
@@ -58,10 +58,10 @@ Create Virtual **(Windows)** Environment (requires [venv](https://packaging.pyth
 py -m venv env
 .\env\Scripts\activate
 ```
-![PowerShell](/Utils/Screenshots/PowerShell.png)
+![VSCode Command Prompt](/Utils/Screenshots/VSCode.png)
 Make sure that, from now on, you **run all commands from within your virtual environment**.
 
-#### 2 Install Required Packages [Windows, Mac or Linux]
+#### 2. Install Required Packages [Windows, Mac or Linux]
 Install all required packages with:
 
 ```
@@ -103,7 +103,7 @@ Unless explicitly stated otherwise at the top of a file, all code is licensed un
 This repo is the fork of [**TrainYourOwnYOLO**](https://github.com/AntonMu/TrainYourOwnYOLO) which is to train YOLOv3 algorithm cat detection. This repo makes use of [**ilmonteux/logohunter**](https://github.com/ilmonteux/logohunter) which itself is inspired by [**qqwweee/keras-yolo3**](https://github.com/qqwweee/keras-yolo3).
 
 ## Acknowledgements
-I would like to thank [Anton Muelemann](https://github.com/AntonMu) for creating [**TrainYourOwnYOLO**]((https://github.com/AntonMu/TrainYourOwnYOLO) repository which really helped me to create this custom object detector.
+I would like to thank [Anton Muelemann](https://github.com/AntonMu) for creating [**TrainYourOwnYOLO**](https://github.com/AntonMu/TrainYourOwnYOLO) repository which really helped me to create this custom object detector.
 
 ## Troubleshooting
 
