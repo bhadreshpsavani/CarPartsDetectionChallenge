@@ -14,6 +14,8 @@ __pycache__/
 
 .vscode/
 .vscode
+Data/*
+
 
 # C extensions
 *.so
