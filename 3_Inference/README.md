@@ -10,11 +10,11 @@ The outputs are saved to [`CarPartsDetectionChallenge/Data/Source_Images/Test_Im
 
 ### Input and Output: ###
 
-![input1](/Utils/Images/00229.jpg) ![Output1](/Utils/Images/00229_car_.jpg)
+![input1](/Utils/Images/00229.jpg = 250x350) ![Output1](/Utils/Images/00229_car_.jpg = 250x350)
 
-![input2](/Utils/Images/00227.jpg) ![Output2](/Utils/Images/00227_car_.jpg)
+![input2](/Utils/Images/00227.jpg = 250x350) ![Output2](/Utils/Images/00227_car_.jpg = 250x350)
 
-![input3](/Utils/Images/00230.jpg) ![Output3](/Utils/Images/00230_car_.jpg)
+![input3](/Utils/Images/00230.jpg = 250x350) ![Output3](/Utils/Images/00230_car_.jpg = 250x350)
 
 
 ### That's all!
