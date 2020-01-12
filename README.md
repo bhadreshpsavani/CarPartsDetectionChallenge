@@ -10,6 +10,7 @@ This Project is to detect Five Parts of the car:
 5. Wheel
 
 Checkout this inputs and outputs,
+
 <img src="/Utils/Images/00234.jpg" width="425"/> <img src="/Utils/Images/00234_car_.jpg" width="425"/> 
 <img src="/Utils/Images/00233.jpg" width="425"/> <img src="/Utils/Images/00233_car_.jpg" width="425"/> 
 <img src="/Utils/Images/00232.jpg" width="425"/> <img src="/Utils/Images/00232_car_.jpg" width="425"/> 
