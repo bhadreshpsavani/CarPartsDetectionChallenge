@@ -99,10 +99,11 @@ python <script_name.py> -h
 
 ## License
 
-Unless explicitly stated otherwise at the top of a file, all code is licensed under the MIT license. This repo makes use of [**ilmonteux/logohunter**](https://github.com/ilmonteux/logohunter) which itself is inspired by [**qqwweee/keras-yolo3**](https://github.com/qqwweee/keras-yolo3).
+Unless explicitly stated otherwise at the top of a file, all code is licensed under the MIT license. 
+This repo is the fork of [**TrainYourOwnYOLO**](https://github.com/AntonMu/TrainYourOwnYOLO) which is to train YOLOv3 algorithm cat detection. This repo makes use of [**ilmonteux/logohunter**](https://github.com/ilmonteux/logohunter) which itself is inspired by [**qqwweee/keras-yolo3**](https://github.com/qqwweee/keras-yolo3).
 
 ## Acknowledgements
-Many thanks to [Niklas Wilson](https://github.com/NiklasWilson) for contributing towards making this repo compatible with Tensorflow 2.0.
+I would like to thank [Anton Muelemann](https://github.com/AntonMu) for creating [**TrainYourOwnYOLO**]((https://github.com/AntonMu/TrainYourOwnYOLO) repository which really helped me to create this custom object detector.
 
 ## Troubleshooting
 
