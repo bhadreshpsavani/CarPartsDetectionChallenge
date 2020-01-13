@@ -1,4 +1,4 @@
-# TrainYourOwnYOLO: Inference
+# CarPartsDetectionChallenge: Inference
 In this step, we test our detector on cat and dog images and videos located in [`CarPartsDetectionChallenge/Data/Source_Images/Test_Images`](/Data/Source_Images/Test_Images). If you like to test the detector on your own images or videos, place them in the [`Test_Images`](/Data/Source_Images/Test_Images) folder. 
 
 ## Testing Your Detector
