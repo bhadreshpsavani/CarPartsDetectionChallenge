@@ -1,4 +1,4 @@
-# TrainYourOwnYOLO: Training
+# CarPartsDetectionChallenge: Training
 
 ## Training
 Using the training images located in [`CarPartsDetectionChallenge/Data/Source_Images/Training_Images`](/Data/Source_Images/Training_Images) and the annotation file [`data_train.txt`](/Data/Source_Images/Training_Images/vott-csv-export) which we have created in the [previous step](/1_Image_Annotation/) we are now ready to train our YOLOv3 detector. 
