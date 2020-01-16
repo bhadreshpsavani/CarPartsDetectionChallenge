@@ -1,0 +1,1273 @@
+{
+    "name": "Annotation2",
+    "securityToken": "Annotation2 Token",
+    "sourceConnection": {
+        "name": "Source_data",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOTM4NzRlZDdhMzk4MjM3YTFiNGU0NzI4NDMwZmM0M2Q3YWY1ODdjYTJmMGU5MmJlYzhjNDNhZjA3NmM0YTcyODIyMWY4NDM0OGViN2Y5ZTIzNzE0MjA4MjEzMjFkNDExMGIyNzc4MmY0OTU2MGFiNmQ3ZGQwZTAxMzM3NTEwYzc1ZjEyYzVjNWIyYTIwYWFjZGQ0YWNlYTRhNzIzZGNhM2FiNjE4N2M5MWRmYzUyN2ZmZmRiMzlkNTg0MTNlODg1NzE3NmQyMzYxODhjYmI0OTA0NjFiZDc3NzJkZTBkMmI5NjYyZjcwMTQzYmQzYTdiYTdiYzNkNTUwY2FmYTIzMyIsIml2IjoiOTZiNGYxN2VjMDNkYjgwYzYzMzM5NDlhYWIzZDY4YjgyY2NiNDMwMmFiOGRkY2VkIn0="
+        },
+        "id": "cJcFw4IAW"
+    },
+    "targetConnection": {
+        "name": "Target-data",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZjU3YWJkOTI4ODI5ZmZiYTg5NjFlOGUxZDZhMzcyZjVkZDE5ZDM2OWNmOTljMGI3MWVhZjg3NTlmYmEwMzY3ZGQxNDY5NTA5ZTkwM2Q5ZWQ0MjNhOTFhNDFjZTE1Y2RiZTNjZWY0OTZlYzhkMTVkNmU2NTU4MTcyODM1MGJlNTE2MGRkY2RjMDUxNGMxM2FlMzM3ZWMwOTVkYWNiYTZkODFlNDMxMTZkZjI3MjFjMzZkYjBhZGFmZDVjMTEwMGEyOWUzNmIzZjgxY2U0NTA1YjQ0YWQ0YTAxODI0OWRlMzJhYjhlZDY0MGJjZDUwOWIwYjViMjBlODZlZjk0ZGE1ZSIsIml2IjoiYmJlZTg1NmU5ZGE4YzU0MDQyZDkzMTk2YWZjOWE3MmI3MDU0NTgyOTUyMWVkMDUyIn0="
+        },
+        "id": "fJGPCQrxw"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "Glass",
+            "color": "#5db300"
+        },
+        {
+            "name": "SideGlass",
+            "color": "#e81123"
+        },
+        {
+            "name": "Light",
+            "color": "#6917aa"
+        },
+        {
+            "name": "Wheel",
+            "color": "#015cda"
+        },
+        {
+            "name": "Door",
+            "color": "#4894fe"
+        }
+    ],
+    "id": "dsql0Ubyr",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "csv",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNGI3M2U1NGNjN2QyNjQwYzhmNWE4NmFlNTIyMmNmYTM2N2E0YTQ5YjVmNGVjNzg2N2I1ZjQ5NDM2ZGY3NGEzNjc2YjIyMzUyOWIyOGVkYjUyMmNmYzNkMjVhZGE3YmVlIiwiaXYiOiIyYjYyNjA4NmQ1MTcwZWY2YTA3YTM5YzlhYjYyMzRhY2FjMWE3MWNkYzNmMWMzNGIifQ=="
+        }
+    },
+    "version": "2.1.0",
+    "lastVisitedAssetId": "746bf83a4899fc7937c199a3ea7b0e4d",
+    "assets": {
+        "0c4937a10d398b78345d2a6c41e2b016": {
+            "format": "jpg",
+            "id": "0c4937a10d398b78345d2a6c41e2b016",
+            "name": "00001.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00001.jpg",
+            "size": {
+                "width": 600,
+                "height": 400
+            },
+            "state": 2,
+            "type": 1
+        },
+        "52c12fb66f8398cff062ece8c2621458": {
+            "format": "jpg",
+            "id": "52c12fb66f8398cff062ece8c2621458",
+            "name": "00002.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00002.jpg",
+            "size": {
+                "width": 900,
+                "height": 675
+            },
+            "state": 2,
+            "type": 1
+        },
+        "553b006e1d7d85aeb13225989be79cb1": {
+            "format": "jpg",
+            "id": "553b006e1d7d85aeb13225989be79cb1",
+            "name": "00003.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00003.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7e93701dc0a2657726973e2137a6947d": {
+            "format": "jpg",
+            "id": "7e93701dc0a2657726973e2137a6947d",
+            "name": "00004.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00004.jpg",
+            "size": {
+                "width": 2100,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6321212717b1ee34d4ba438a32d05f5d": {
+            "format": "jpg",
+            "id": "6321212717b1ee34d4ba438a32d05f5d",
+            "name": "00005.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00005.jpg",
+            "size": {
+                "width": 144,
+                "height": 108
+            },
+            "state": 2,
+            "type": 1
+        },
+        "24af78d7600b2544bd63a3e2c3bc07b1": {
+            "format": "jpg",
+            "id": "24af78d7600b2544bd63a3e2c3bc07b1",
+            "name": "00006.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00006.jpg",
+            "size": {
+                "width": 575,
+                "height": 431
+            },
+            "state": 2,
+            "type": 1
+        },
+        "936628cfbd018696f74545a285f4a3e1": {
+            "format": "jpg",
+            "id": "936628cfbd018696f74545a285f4a3e1",
+            "name": "00007.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00007.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fe883e2e44ae75483ea329a0916ba1d8": {
+            "format": "jpg",
+            "id": "fe883e2e44ae75483ea329a0916ba1d8",
+            "name": "00008.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00008.jpg",
+            "size": {
+                "width": 639,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1251e5bf872d616c091f3f900560c450": {
+            "format": "jpg",
+            "id": "1251e5bf872d616c091f3f900560c450",
+            "name": "00009.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00009.jpg",
+            "size": {
+                "width": 1280,
+                "height": 843
+            },
+            "state": 2,
+            "type": 1
+        },
+        "46fd48383032a3483bfb295e61f79617": {
+            "format": "jpg",
+            "id": "46fd48383032a3483bfb295e61f79617",
+            "name": "00010.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00010.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "20ec77f8bd2b4c98e3553ee7ca29f5b4": {
+            "format": "jpg",
+            "id": "20ec77f8bd2b4c98e3553ee7ca29f5b4",
+            "name": "00011.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00011.jpg",
+            "size": {
+                "width": 640,
+                "height": 424
+            },
+            "state": 2,
+            "type": 1
+        },
+        "42b578d273cee1a4e22144a83b166b0f": {
+            "format": "jpg",
+            "id": "42b578d273cee1a4e22144a83b166b0f",
+            "name": "00012.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00012.jpg",
+            "size": {
+                "width": 500,
+                "height": 315
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a98a26f7ec7445068d9486f14a144ac9": {
+            "format": "jpg",
+            "id": "a98a26f7ec7445068d9486f14a144ac9",
+            "name": "00013.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00013.jpg",
+            "size": {
+                "width": 500,
+                "height": 335
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9f1ca67f0e62430ec4b3de8eca53d265": {
+            "format": "jpg",
+            "id": "9f1ca67f0e62430ec4b3de8eca53d265",
+            "name": "00014.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00014.jpg",
+            "size": {
+                "width": 800,
+                "height": 600
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c1e13e932a1b7c0a99df46b391ab2b58": {
+            "format": "jpg",
+            "id": "c1e13e932a1b7c0a99df46b391ab2b58",
+            "name": "00015.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00015.jpg",
+            "size": {
+                "width": 640,
+                "height": 424
+            },
+            "state": 2,
+            "type": 1
+        },
+        "858281910e8a1d384d31f80e14881e4b": {
+            "format": "jpg",
+            "id": "858281910e8a1d384d31f80e14881e4b",
+            "name": "00016.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00016.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ecea888ff9f1ff53463533aca6d01d9": {
+            "format": "jpg",
+            "id": "1ecea888ff9f1ff53463533aca6d01d9",
+            "name": "00017.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00017.jpg",
+            "size": {
+                "width": 259,
+                "height": 194
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4fbd4b0ac0a5ef494471ae8f7ee9fe88": {
+            "format": "jpg",
+            "id": "4fbd4b0ac0a5ef494471ae8f7ee9fe88",
+            "name": "00018.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00018.jpg",
+            "size": {
+                "width": 200,
+                "height": 147
+            },
+            "state": 2,
+            "type": 1
+        },
+        "430284156e3ae0109c3817979e35ae50": {
+            "format": "jpg",
+            "id": "430284156e3ae0109c3817979e35ae50",
+            "name": "00019.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00019.jpg",
+            "size": {
+                "width": 1500,
+                "height": 938
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fb19f2159ec0d661412f6b09bc77cce2": {
+            "format": "jpg",
+            "id": "fb19f2159ec0d661412f6b09bc77cce2",
+            "name": "00020.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00020.jpg",
+            "size": {
+                "width": 1000,
+                "height": 650
+            },
+            "state": 2,
+            "type": 1
+        },
+        "067343501614cadf8054f2d0951d780e": {
+            "format": "jpg",
+            "id": "067343501614cadf8054f2d0951d780e",
+            "name": "00021.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00021.jpg",
+            "size": {
+                "width": 750,
+                "height": 469
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3c7c78b8de10d79a7c1204918c641359": {
+            "format": "jpg",
+            "id": "3c7c78b8de10d79a7c1204918c641359",
+            "name": "00022.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00022.jpg",
+            "size": {
+                "width": 2100,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b5eec15d3139b705076e4a13b9dc1704": {
+            "format": "jpg",
+            "id": "b5eec15d3139b705076e4a13b9dc1704",
+            "name": "00023.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00023.jpg",
+            "size": {
+                "width": 500,
+                "height": 270
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fee5be618517d5eb36ff589ba070500c": {
+            "format": "jpg",
+            "id": "fee5be618517d5eb36ff589ba070500c",
+            "name": "00024.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00024.jpg",
+            "size": {
+                "width": 1024,
+                "height": 768
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c3df1aca08721dcc07c90d8eee78e5bc": {
+            "format": "jpg",
+            "id": "c3df1aca08721dcc07c90d8eee78e5bc",
+            "name": "00025.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00025.jpg",
+            "size": {
+                "width": 604,
+                "height": 453
+            },
+            "state": 2,
+            "type": 1
+        },
+        "48366bfe9a444fea9facffc590c317d5": {
+            "format": "jpg",
+            "id": "48366bfe9a444fea9facffc590c317d5",
+            "name": "00026.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00026.jpg",
+            "size": {
+                "width": 628,
+                "height": 417
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ad477bc4bf4bd474892664c0c4467a32": {
+            "format": "jpg",
+            "id": "ad477bc4bf4bd474892664c0c4467a32",
+            "name": "00027.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00027.jpg",
+            "size": {
+                "width": 630,
+                "height": 418
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3188e6a0e81545d307922f8f64d7d29a": {
+            "format": "jpg",
+            "id": "3188e6a0e81545d307922f8f64d7d29a",
+            "name": "00028.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00028.jpg",
+            "size": {
+                "width": 620,
+                "height": 412
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eaa092d0614aa74c622314396a074a07": {
+            "format": "jpg",
+            "id": "eaa092d0614aa74c622314396a074a07",
+            "name": "00029.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00029.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9ebd20eefe565a89c88b59878596375a": {
+            "format": "jpg",
+            "id": "9ebd20eefe565a89c88b59878596375a",
+            "name": "00030.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00030.jpg",
+            "size": {
+                "width": 896,
+                "height": 592
+            },
+            "state": 2,
+            "type": 1
+        },
+        "01244679c46e24ae67fafc0df04163d9": {
+            "format": "jpg",
+            "id": "01244679c46e24ae67fafc0df04163d9",
+            "name": "00031.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00031.jpg",
+            "size": {
+                "width": 1024,
+                "height": 768
+            },
+            "state": 2,
+            "type": 1
+        },
+        "563a7f5e50ecfaa15636adbe97899737": {
+            "format": "jpg",
+            "id": "563a7f5e50ecfaa15636adbe97899737",
+            "name": "00032.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00032.jpg",
+            "size": {
+                "width": 500,
+                "height": 375
+            },
+            "state": 2,
+            "type": 1
+        },
+        "65db7c2667edc5d2e856a7a765a66377": {
+            "format": "jpg",
+            "id": "65db7c2667edc5d2e856a7a765a66377",
+            "name": "00033.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00033.jpg",
+            "size": {
+                "width": 1024,
+                "height": 768
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f8c3cbe6d3c18b865d997db933e54b08": {
+            "format": "jpg",
+            "id": "f8c3cbe6d3c18b865d997db933e54b08",
+            "name": "00034.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00034.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e48f8cd0b02f4946019ccf26b8012666": {
+            "format": "jpg",
+            "id": "e48f8cd0b02f4946019ccf26b8012666",
+            "name": "00035.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00035.jpg",
+            "size": {
+                "width": 1258,
+                "height": 816
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c2ef3fd5e9e57a04936aa7bd14b22ac4": {
+            "format": "jpg",
+            "id": "c2ef3fd5e9e57a04936aa7bd14b22ac4",
+            "name": "00036.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00036.jpg",
+            "size": {
+                "width": 580,
+                "height": 250
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4eea6b0dcdb7d4319c2852074a49b79e": {
+            "format": "jpg",
+            "id": "4eea6b0dcdb7d4319c2852074a49b79e",
+            "name": "00037.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00037.jpg",
+            "size": {
+                "width": 640,
+                "height": 425
+            },
+            "state": 2,
+            "type": 1
+        },
+        "52ed6ba1626051f8068629f2ecc5220b": {
+            "format": "jpg",
+            "id": "52ed6ba1626051f8068629f2ecc5220b",
+            "name": "00038.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00038.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5db5cffb411f509b4dcebab847d3b168": {
+            "format": "jpg",
+            "id": "5db5cffb411f509b4dcebab847d3b168",
+            "name": "00039.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00039.jpg",
+            "size": {
+                "width": 640,
+                "height": 425
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8d942067442c9f41172d35cc0dea6ef6": {
+            "format": "jpg",
+            "id": "8d942067442c9f41172d35cc0dea6ef6",
+            "name": "00040.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00040.jpg",
+            "size": {
+                "width": 750,
+                "height": 469
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7b96bc24cf6544f0b8e3deff4b4ea92d": {
+            "format": "jpg",
+            "id": "7b96bc24cf6544f0b8e3deff4b4ea92d",
+            "name": "00041.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00041.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8c47fda60bceefe0196300dc90c41092": {
+            "format": "jpg",
+            "id": "8c47fda60bceefe0196300dc90c41092",
+            "name": "00042.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00042.jpg",
+            "size": {
+                "width": 640,
+                "height": 452
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ac038067fc7da1d946aa8b3e724e15d4": {
+            "format": "jpg",
+            "id": "ac038067fc7da1d946aa8b3e724e15d4",
+            "name": "00043.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00043.jpg",
+            "size": {
+                "width": 596,
+                "height": 417
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ac22627be88c9fc25bb92a7de2f8bcf3": {
+            "format": "jpg",
+            "id": "ac22627be88c9fc25bb92a7de2f8bcf3",
+            "name": "00044.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00044.jpg",
+            "size": {
+                "width": 659,
+                "height": 439
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d284bad7dc12536d31848e91839e92df": {
+            "format": "jpg",
+            "id": "d284bad7dc12536d31848e91839e92df",
+            "name": "00045.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00045.jpg",
+            "size": {
+                "width": 500,
+                "height": 375
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4f4fc5a2a46036fcd62d0b2e5cfeab54": {
+            "format": "jpg",
+            "id": "4f4fc5a2a46036fcd62d0b2e5cfeab54",
+            "name": "00046.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00046.jpg",
+            "size": {
+                "width": 786,
+                "height": 492
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9e30baad1f0c692e99a1b3a91c422e39": {
+            "format": "jpg",
+            "id": "9e30baad1f0c692e99a1b3a91c422e39",
+            "name": "00047.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00047.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "93d0cb15c10c42437f3e2a11c8af1c6b": {
+            "format": "jpg",
+            "id": "93d0cb15c10c42437f3e2a11c8af1c6b",
+            "name": "00048.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00048.jpg",
+            "size": {
+                "width": 813,
+                "height": 541
+            },
+            "state": 2,
+            "type": 1
+        },
+        "54e85b248f9dc34721df3a4a0e8f340a": {
+            "format": "jpg",
+            "id": "54e85b248f9dc34721df3a4a0e8f340a",
+            "name": "00049.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00049.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1067
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2496636cabd7b45d7ba53f4efdb7fb2b": {
+            "format": "jpg",
+            "id": "2496636cabd7b45d7ba53f4efdb7fb2b",
+            "name": "00050.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00050.jpg",
+            "size": {
+                "width": 580,
+                "height": 407
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8fb9055f461307ceded3a6692a6118a8": {
+            "format": "jpg",
+            "id": "8fb9055f461307ceded3a6692a6118a8",
+            "name": "00051.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00051.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1e5cdd376dc89b3218923b5dd7ca23e5": {
+            "format": "jpg",
+            "id": "1e5cdd376dc89b3218923b5dd7ca23e5",
+            "name": "00053.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00053.jpg",
+            "size": {
+                "width": 500,
+                "height": 375
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e15505fd7f63b453959ccee0d9556d17": {
+            "format": "jpg",
+            "id": "e15505fd7f63b453959ccee0d9556d17",
+            "name": "00052.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00052.jpg",
+            "size": {
+                "width": 808,
+                "height": 424
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c0fd228edcb1719e6fd123f53a8836c3": {
+            "format": "jpg",
+            "id": "c0fd228edcb1719e6fd123f53a8836c3",
+            "name": "00054.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00054.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "98ff0bec8bf7521b7954896af6177707": {
+            "format": "jpg",
+            "id": "98ff0bec8bf7521b7954896af6177707",
+            "name": "00055.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00055.jpg",
+            "size": {
+                "width": 620,
+                "height": 433
+            },
+            "state": 2,
+            "type": 1
+        },
+        "282c992e7c2fb9a5a9cd8964b5772f6b": {
+            "format": "jpg",
+            "id": "282c992e7c2fb9a5a9cd8964b5772f6b",
+            "name": "00056.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00056.jpg",
+            "size": {
+                "width": 500,
+                "height": 315
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b867f416a6e79b6ce59c9d82c0658c05": {
+            "format": "jpg",
+            "id": "b867f416a6e79b6ce59c9d82c0658c05",
+            "name": "00057.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00057.jpg",
+            "size": {
+                "width": 1200,
+                "height": 498
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f58f996074988dcfa5673c9af31f269d": {
+            "format": "jpg",
+            "id": "f58f996074988dcfa5673c9af31f269d",
+            "name": "00058.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00058.jpg",
+            "size": {
+                "width": 260,
+                "height": 194
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3b02e079a699bde6f3b1e9f2a2a41dd1": {
+            "format": "jpg",
+            "id": "3b02e079a699bde6f3b1e9f2a2a41dd1",
+            "name": "00059.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00059.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aefec1b1c090b1ea852d462bf9aeec4d": {
+            "format": "jpg",
+            "id": "aefec1b1c090b1ea852d462bf9aeec4d",
+            "name": "00060.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00060.jpg",
+            "size": {
+                "width": 400,
+                "height": 300
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0964ea5f8eef77a37fd33b0dcec49c29": {
+            "format": "jpg",
+            "id": "0964ea5f8eef77a37fd33b0dcec49c29",
+            "name": "00061.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00061.jpg",
+            "size": {
+                "width": 1023,
+                "height": 764
+            },
+            "state": 2,
+            "type": 1
+        },
+        "02ac7228cbbf6a174564d2af9a5015a0": {
+            "format": "jpg",
+            "id": "02ac7228cbbf6a174564d2af9a5015a0",
+            "name": "00062.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00062.jpg",
+            "size": {
+                "width": 450,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a63ddbe192832e144b8cbc773ee117b2": {
+            "format": "jpg",
+            "id": "a63ddbe192832e144b8cbc773ee117b2",
+            "name": "00063.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00063.jpg",
+            "size": {
+                "width": 1032,
+                "height": 774
+            },
+            "state": 2,
+            "type": 1
+        },
+        "39ab2986882dcd20610a10299a24579f": {
+            "format": "jpg",
+            "id": "39ab2986882dcd20610a10299a24579f",
+            "name": "00064.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00064.jpg",
+            "size": {
+                "width": 1024,
+                "height": 768
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6576be7a6db038c1e066bbbe7abb6a20": {
+            "format": "jpg",
+            "id": "6576be7a6db038c1e066bbbe7abb6a20",
+            "name": "00065.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00065.jpg",
+            "size": {
+                "width": 500,
+                "height": 361
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0676e2be1c0ccd10ebc7bb2a5fd4ae41": {
+            "format": "jpg",
+            "id": "0676e2be1c0ccd10ebc7bb2a5fd4ae41",
+            "name": "00066.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00066.jpg",
+            "size": {
+                "width": 259,
+                "height": 194
+            },
+            "state": 2,
+            "type": 1
+        },
+        "23b0bd748e73ba4008086d63cc33202c": {
+            "format": "jpg",
+            "id": "23b0bd748e73ba4008086d63cc33202c",
+            "name": "00067.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00067.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8fe37c3235f41e1c559fc7efd28437cf": {
+            "format": "jpg",
+            "id": "8fe37c3235f41e1c559fc7efd28437cf",
+            "name": "00068.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00068.jpg",
+            "size": {
+                "width": 640,
+                "height": 438
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db81a41300037b05d19a558763439a31": {
+            "format": "jpg",
+            "id": "db81a41300037b05d19a558763439a31",
+            "name": "00069.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00069.jpg",
+            "size": {
+                "width": 800,
+                "height": 533
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ba8331e46f9317f7b4e8c845c60bbab8": {
+            "format": "jpg",
+            "id": "ba8331e46f9317f7b4e8c845c60bbab8",
+            "name": "00070.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00070.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9ae31dc0b74946130bc6a9c802f6eb6c": {
+            "format": "jpg",
+            "id": "9ae31dc0b74946130bc6a9c802f6eb6c",
+            "name": "00071.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00071.jpg",
+            "size": {
+                "width": 643,
+                "height": 305
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f11664bd3097ecb97b19b3f6ce3ace4d": {
+            "format": "jpg",
+            "id": "f11664bd3097ecb97b19b3f6ce3ace4d",
+            "name": "00072.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00072.jpg",
+            "size": {
+                "width": 1280,
+                "height": 850
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c52d9bc51fe2a3f14a18c62682787717": {
+            "format": "jpg",
+            "id": "c52d9bc51fe2a3f14a18c62682787717",
+            "name": "00073.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00073.jpg",
+            "size": {
+                "width": 320,
+                "height": 240
+            },
+            "state": 2,
+            "type": 1
+        },
+        "567a784e6df430a49efe230194edbc3a": {
+            "format": "jpg",
+            "id": "567a784e6df430a49efe230194edbc3a",
+            "name": "00074.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00074.jpg",
+            "size": {
+                "width": 320,
+                "height": 240
+            },
+            "state": 2,
+            "type": 1
+        },
+        "72f75e481cbb856913fd081a8e5104ec": {
+            "format": "jpg",
+            "id": "72f75e481cbb856913fd081a8e5104ec",
+            "name": "00075.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00075.jpg",
+            "size": {
+                "width": 550,
+                "height": 286
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f32f2c61b4785800051d381e006260bf": {
+            "format": "jpg",
+            "id": "f32f2c61b4785800051d381e006260bf",
+            "name": "00076.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00076.jpg",
+            "size": {
+                "width": 300,
+                "height": 187
+            },
+            "state": 2,
+            "type": 1
+        },
+        "af4bfc2f130b66db82ef5d1fd5230392": {
+            "format": "jpg",
+            "id": "af4bfc2f130b66db82ef5d1fd5230392",
+            "name": "00077.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00077.jpg",
+            "size": {
+                "width": 3552,
+                "height": 2153
+            },
+            "state": 2,
+            "type": 1
+        },
+        "adcb51c836223960b887a01fff10d99f": {
+            "format": "jpg",
+            "id": "adcb51c836223960b887a01fff10d99f",
+            "name": "00078.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00078.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7fd296b8609487a023b65cbcf7b90b3e": {
+            "format": "jpg",
+            "id": "7fd296b8609487a023b65cbcf7b90b3e",
+            "name": "00079.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00079.jpg",
+            "size": {
+                "width": 750,
+                "height": 469
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a81e3048275763a7f7fd6f3f99922976": {
+            "format": "jpg",
+            "id": "a81e3048275763a7f7fd6f3f99922976",
+            "name": "00080.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00080.jpg",
+            "size": {
+                "width": 300,
+                "height": 224
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5a04e18dea5ba301e82cb27de0da3b4a": {
+            "format": "jpg",
+            "id": "5a04e18dea5ba301e82cb27de0da3b4a",
+            "name": "00081.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00081.jpg",
+            "size": {
+                "width": 550,
+                "height": 301
+            },
+            "state": 2,
+            "type": 1
+        },
+        "746bd06275d5c4fe608d6dc9535fa35c": {
+            "format": "jpg",
+            "id": "746bd06275d5c4fe608d6dc9535fa35c",
+            "name": "00082.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00082.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3ebd563f7c037f72fab4ac313c5f0c60": {
+            "format": "jpg",
+            "id": "3ebd563f7c037f72fab4ac313c5f0c60",
+            "name": "00083.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00083.jpg",
+            "size": {
+                "width": 300,
+                "height": 225
+            },
+            "state": 2,
+            "type": 1
+        },
+        "515a419370db622773d244ca13ba2fa5": {
+            "format": "jpg",
+            "id": "515a419370db622773d244ca13ba2fa5",
+            "name": "00084.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00084.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5a32d51bdd10d1ac804b8779afbc12f2": {
+            "format": "jpg",
+            "id": "5a32d51bdd10d1ac804b8779afbc12f2",
+            "name": "00085.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00085.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e885c874ff96f658b9c4485f38899963": {
+            "format": "jpg",
+            "id": "e885c874ff96f658b9c4485f38899963",
+            "name": "00086.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00086.jpg",
+            "size": {
+                "width": 1500,
+                "height": 920
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4532418d07084e95fefad45474e8280b": {
+            "format": "jpg",
+            "id": "4532418d07084e95fefad45474e8280b",
+            "name": "00087.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00087.jpg",
+            "size": {
+                "width": 467,
+                "height": 234
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f31ab1773e850244b751122809ba9831": {
+            "format": "jpg",
+            "id": "f31ab1773e850244b751122809ba9831",
+            "name": "00088.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00088.jpg",
+            "size": {
+                "width": 2592,
+                "height": 1944
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b3d9c9ca27c23b62cd04354542e41833": {
+            "format": "jpg",
+            "id": "b3d9c9ca27c23b62cd04354542e41833",
+            "name": "00089.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00089.jpg",
+            "size": {
+                "width": 1024,
+                "height": 768
+            },
+            "state": 2,
+            "type": 1
+        },
+        "798d3600ed055cc665d387703a46d02c": {
+            "format": "jpg",
+            "id": "798d3600ed055cc665d387703a46d02c",
+            "name": "00090.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00090.jpg",
+            "size": {
+                "width": 300,
+                "height": 225
+            },
+            "state": 2,
+            "type": 1
+        },
+        "92db6a7a8fca6460a8222aff9e000685": {
+            "format": "jpg",
+            "id": "92db6a7a8fca6460a8222aff9e000685",
+            "name": "00091.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00091.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "36e94495b41a73c4b6968142fc52a5fb": {
+            "format": "jpg",
+            "id": "36e94495b41a73c4b6968142fc52a5fb",
+            "name": "00092.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00092.jpg",
+            "size": {
+                "width": 600,
+                "height": 338
+            },
+            "state": 2,
+            "type": 1
+        },
+        "02e430a75e68c44b50f8a6e13524736c": {
+            "format": "jpg",
+            "id": "02e430a75e68c44b50f8a6e13524736c",
+            "name": "00093.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00093.jpg",
+            "size": {
+                "width": 275,
+                "height": 183
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b61bf8830540e81dc1494dfa5278802c": {
+            "format": "jpg",
+            "id": "b61bf8830540e81dc1494dfa5278802c",
+            "name": "00094.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00094.jpg",
+            "size": {
+                "width": 786,
+                "height": 491
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7fac289bf8a89815d76d27fa5f4bd01f": {
+            "format": "jpg",
+            "id": "7fac289bf8a89815d76d27fa5f4bd01f",
+            "name": "00095.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00095.jpg",
+            "size": {
+                "width": 1280,
+                "height": 782
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c7c21e99878a3898e19e590cfc005f8b": {
+            "format": "jpg",
+            "id": "c7c21e99878a3898e19e590cfc005f8b",
+            "name": "00096.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00096.jpg",
+            "size": {
+                "width": 400,
+                "height": 265
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c8bc92e925b116160250c8f8650f0270": {
+            "format": "jpg",
+            "id": "c8bc92e925b116160250c8f8650f0270",
+            "name": "00097.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00097.jpg",
+            "size": {
+                "width": 78,
+                "height": 58
+            },
+            "state": 2,
+            "type": 1
+        },
+        "96946900a7fae7d809c40cdc69553719": {
+            "format": "jpg",
+            "id": "96946900a7fae7d809c40cdc69553719",
+            "name": "00099.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00099.jpg",
+            "size": {
+                "width": 510,
+                "height": 383
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7c0ef10e96b30fddc3c9b96fc66672b1": {
+            "format": "jpg",
+            "id": "7c0ef10e96b30fddc3c9b96fc66672b1",
+            "name": "00101.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00101.jpg",
+            "size": {
+                "width": 1024,
+                "height": 768
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fde3c1d26abb6f1c86d714d43f89ac15": {
+            "format": "jpg",
+            "id": "fde3c1d26abb6f1c86d714d43f89ac15",
+            "name": "00098.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00098.jpg",
+            "size": {
+                "width": 640,
+                "height": 426
+            },
+            "state": 2,
+            "type": 1
+        },
+        "746bf83a4899fc7937c199a3ea7b0e4d": {
+            "format": "jpg",
+            "id": "746bf83a4899fc7937c199a3ea7b0e4d",
+            "name": "00100.jpg",
+            "path": "file:C:/Users/Bhadr/Desktop/Car-Body-Parts-Challenge/TrainYourOwnYOLO/Data/Source_Images/Training/00100.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}

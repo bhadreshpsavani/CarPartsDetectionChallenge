@@ -1,0 +1,5 @@
+Light
+Glass
+SideGlass
+Door
+Wheel
