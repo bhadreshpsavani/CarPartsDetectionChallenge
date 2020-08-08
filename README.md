@@ -37,6 +37,9 @@ To build and test your object detection algorithm follow the below steps:
 
 ## Getting Started
 
+### NEW: Google Colab Tutorial <a href="https://colab.research.google.com/github/AntonMu/TrainYourOwnYOLO/blob/master/TrainYourOwnYOLO.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+With Google Colab you can skip most of the set up steps and start training your own model right away. 
+
 ### Requisites
 The only hard requirement is a running version of python 3.3 or newer. To install the latest python 3.x version go to 
 - [python.org/downloads](https://www.python.org/downloads/) 
