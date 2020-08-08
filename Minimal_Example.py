@@ -32,7 +32,7 @@ if not os.path.isfile(os.path.join(model_folder, "trained_weights_final.h5")):
         [
             "python",
             download_script,
-            "1xf0IskC_H1nArSobJc2NnicShXTwdiam",
+            "16HiJXRnQIyRfAfsJIN7rU9KZDzgyaA76",
             os.path.join(model_folder, "trained_weights_final.h5"),
         ]
     )
@@ -66,8 +66,8 @@ arglist = [
 ]
 call_string = " ".join(["python", detector_script, make_call_string(arglist)])
 
-print("Detecting Cat Faces by calling: \n\n", call_string, "\n")
+print("Detecting Car Parts by calling: \n\n", call_string, "\n")
 start = time.time()
 subprocess.call(call_string, shell=True)
 end = time.time()
-print("Detected Cat Faces in {0:.1f} seconds".format(end - start))
+print("Detected Car Parts in {0:.1f} seconds".format(end - start))
