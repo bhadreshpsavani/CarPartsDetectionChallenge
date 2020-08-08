@@ -4,7 +4,7 @@ absl-py==0.7.1
 astor==0.8.0
 attrs==19.1.0
 backcall==0.1.0
-bleach==3.1.0
+bleach==3.1.4
 certifi==2019.6.16
 chardet==3.0.4
 cycler==0.10.0
@@ -20,7 +20,7 @@ idna==2.8
 ipykernel==5.1.1
 ipython==7.6.1
 ipython-genutils==0.2.0
-ipywidgets==7.5.0
+ipywidgets==7.5.1
 jedi==0.14.0
 Jinja2==2.10.1
 joblib==0.13.2
@@ -48,7 +48,7 @@ pandocfilters==1.4.2
 parso==0.5.0
 pexpect==4.7.0
 pickleshare==0.7.5
-Pillow==6.2.1
+Pillow==6.2.2
 prometheus-client==0.7.1
 prompt-toolkit==2.0.9
 protobuf==3.8.0
@@ -69,7 +69,7 @@ six==1.12.0
 sklearn==0.0
 sympy==1.4
 tensorboard==1.15.0
-tensorflow==1.15.0
+tensorflow==1.15.2
 tensorflow-estimator==1.15.0
 termcolor==1.1.0
 terminado==0.8.2

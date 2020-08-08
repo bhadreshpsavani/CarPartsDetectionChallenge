@@ -15,7 +15,6 @@ __pycache__/
 .vscode/
 .vscode
 
-
 # C extensions
 *.so
 
