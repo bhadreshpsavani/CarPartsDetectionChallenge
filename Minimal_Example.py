@@ -32,7 +32,7 @@ if not os.path.isfile(os.path.join(model_folder, "trained_weights_final.h5")):
         [
             "python",
             download_script,
-            "1MGXAP_XD_w4OExPP10UHsejWrMww8Tu7",
+            "1xf0IskC_H1nArSobJc2NnicShXTwdiam",
             os.path.join(model_folder, "trained_weights_final.h5"),
         ]
     )
