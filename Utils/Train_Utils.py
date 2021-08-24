@@ -212,17 +212,17 @@ def data_generator_wrapper(
     )
 
 
-def ChangeToOtherMachine(filelist, repo="TrainYourOwnYOLO", remote_machine=""):
+def ChangeToOtherMachine(filelist, repo="CarPartsDetectionChallenge", remote_machine=""):
     """
     Takes a list of file_names located in a repo and changes it to the local machines file names. File must be executed from withing the repository
 
     Example:
 
-    '/home/ubuntu/TrainYourOwnYOLO/Data/Street_View_Images/vulnerable/test.jpg'
+    '/home/ubuntu/CarPartsDetectionChallenge/Data/Street_View_Images/vulnerable/test.jpg'
 
     Get's converted to
     
-    'C:/Users/Anton/TrainYourOwnYOLO/Data/Street_View_Images/vulnerable/test.jpg'
+    'C:/Users/bhadresh/CarPartsDetectionChallenge/Data/Street_View_Images/vulnerable/test.jpg'
 
     """
     filelist = [x.replace("\\", "/") for x in filelist]
