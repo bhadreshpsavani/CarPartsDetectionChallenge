@@ -144,6 +144,8 @@ I would like to thank [Anton Muelemann](https://github.com/AntonMu) for creating
     ```
     See [Snap Tutorial](https://tutorials.ubuntu.com/tutorial/advanced-snap-usage#2) for more information.
 
+## Resources and Links:
+* [AUG 23, 2021] -> If you have an object detection model, you can now use it with [OpenAI's](https://blog.roboflow.com/zero-shot-object-tracking/) zero shot object tracking repository to do object tracking - no additional modeling required. 
 
 
 ## Stay Up-to-Date
